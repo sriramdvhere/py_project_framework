@@ -1,0 +1,4 @@
+[32mINFO    [0m src.py_project_framework.utils.api_util:api_util.py:32 preparing request to trigger api url: https://demoqa.com/Account/v1/User with username:1mtarzxux
+[32mINFO    [0m src.py_project_framework.utils.api_util:api_util.py:26 response from api: https://demoqa.com/Account/v1/User, response content:b'{"userID":"5311d0f4-6d0e-4539-a7a4-e4a1f869ffe6","username":"1mtarzxux","books":[]}'
+[32mINFO    [0m src.py_project_framework.pageobjects.homepage:homepage.py:22 Login started for username:1mtarzxux.
+[32mINFO    [0m src.py_project_framework.pageobjects.profilepage:profilepage.py:17 Logged in username:1mtarzxux

@@ -1,0 +1,23 @@
+[project]
+name = "py-project-framework"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Sriram Dhanaraj",email = "sriram_dhanaraj@epam.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "selenium (>=4.33.0,<5.0.0)",
+    "requests (>=2.32.4,<3.0.0)",
+    "pytest (>=8.4.0,<9.0.0)",
+    "pytest-html (>=4.1.1,<5.0.0)",
+    "allure-pytest (>=2.14.3,<3.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "py_project_framework", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
